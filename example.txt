@@ -1,0 +1,11 @@
+# This is the input example of homolog.py
+# the line starting with # will be ingnored
+# the items should be splited by blank or tab
+# the same FamilyName shoule contains the same Locus, ortherwise the first will be the template copied by the subsequence
+# the combination of SourceFastaFileName and FamilyName should be unique.
+#
+# SourceFastaFileName	FamilyName	Locus
+#
+Oryza_sativa.fa	ICEs	AT3G26744,AT1G12860
+Oryza_sativa.fa CBFs	AT1G12610,AT1G63030,AT5G51990,AT4G25470,AT4G25480,AT4G25490
+#Arabidopsis_thaliana.fa CBFs AT1G12610,AT1G63030,AT5G51990,AT4G25470,AT4G25480,AT4G25490
